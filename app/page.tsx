@@ -47,7 +47,7 @@ export default async function Page() {
             </button>
           </a>
           <div className="text-xs text-stone-400 hover:underline tracking-tighter text-center">
-            <a href="https://github.com/horsefacts/base-mint-with-warps" target="_blank">
+            <a href="https://github.com/sergical/base-mint-slava-ukraini" target="_blank">
               See code on Github
             </a>
           </div>
