@@ -4,6 +4,8 @@
   "scripts": {
     "build": "rm -rf .next && next build",
     "dev": "next dev",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "format": "prettier --log-level warn --write .",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
