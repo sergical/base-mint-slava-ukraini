@@ -10,7 +10,6 @@ const API_ENDPOINT = 'https://api.zora.co/graphql';
 const args = {
   endPoint: API_ENDPOINT,
   networks: [networkInfo],
-  apiKey: process.env.API_KEY,
 };
 
 const zdk = new ZDK(args);
@@ -20,7 +19,9 @@ export async function getCollection() {
     token: { address: ZORA_COLLECTION_ADDRESS, tokenId: ZORA_TOKEN_ID },
     includeFullDetails: false,
   });
+
   const name = collection.token?.token.name ?? 'Unknown Collection';
+
   const image = `${NEXT_PUBLIC_URL}/slava-ukraini.png`;
   //collection.token?.token.image?.mediaEncoding?.original ?? `${NEXT_PUBLIC_URL}/giraffe.png`;
   return { name, image, address: ZORA_COLLECTION_ADDRESS, tokenId: ZORA_TOKEN_ID };

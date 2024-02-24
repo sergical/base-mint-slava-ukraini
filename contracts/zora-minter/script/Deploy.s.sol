@@ -14,6 +14,6 @@ contract Deploy is Script {
         address owner = msg.sender;
 
         vm.broadcast();
-        new ZoraMinter{ salt: unicode"🐎" }(owner, referrer, signer, collection, minter);
+        new ZoraMinter{ salt: unicode"🇺🇦" }(owner, referrer, signer, collection, minter);
     }
 }
