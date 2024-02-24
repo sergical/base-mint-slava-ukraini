@@ -1,6 +1,6 @@
-# 🔵 Base Mint with Warps frame 🟣
+# 🔵 Base Mint Slava Ukraini
 
-A Farcaster frame that demos "mint with Warps" and "claim with Warpcast active badge" actions. Pay gas costs and mint fees for users with an active badge, let everyone else mint with Warps.
+A Farcaster frame based on [Mint with Warps](https://github.com/horsefacts/base-mint-with-warps?tab=readme-ov-file) - to help raise funds for the people of Ukraine. Created on the 2nd anniversary of Russia invading Ukraine and almost the first aniversary of Base.
 
 Built using open source tools:
 
